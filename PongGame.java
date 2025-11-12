@@ -2,7 +2,33 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
+class PongGame {
 
+    public static void main(String[] args) {
+
+        GameFrame frame = new GameFrame();
+
+    }
+}
+//*********************************
+
+class GameFrame extends JFrame{
+
+    GamePanel panel;
+
+    GameFrame(){
+        panel = new GamePanel();
+        this.add(panel);
+        this.setTitle("Pong Game");
+        this.setResizable(false);
+        this.setBackground(Color.black);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.pack();
+        this.setVisible(true);
+        this.setLocationRelativeTo(null);
+    }
+}
+//**********************************************************
 class GamePanel extends JPanel implements Runnable{
 
     static final int GAME_WIDTH = 1200;
