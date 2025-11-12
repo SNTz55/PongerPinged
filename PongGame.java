@@ -20,7 +20,7 @@ class GamePanel extends JPanel implements Runnable{
 
     GamePanel(){
         // Load background image once
-        background = new ImageIcon("d73930f3-3473-4e9f-9d09-f161c6f82fdc.png").getImage();
+        background = new ImageIcon("513505652-132ed338-7fb9-4fc5-b03b-8550240336f6").getImage();
 
         newPaddles();
         newBall();
@@ -151,3 +151,4 @@ class GamePanel extends JPanel implements Runnable{
         }
     }
 }
+
