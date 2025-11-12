@@ -1,3 +1,7 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
 class GamePanel extends JPanel implements Runnable{
 
     static final int GAME_WIDTH = 1200;
@@ -151,4 +155,5 @@ class GamePanel extends JPanel implements Runnable{
         }
     }
 }
+
 
